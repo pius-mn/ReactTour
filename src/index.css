@@ -1,4 +1,5 @@
 body {
+  
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
     'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
@@ -10,4 +11,64 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+ /* Carousel styling */
+ #introCarousel,
+ .carousel-inner,
+ .carousel-item,
+ .carousel-item.active {
+   height: 100vh;
+ }
+
+ .carousel-item {
+   background-repeat: no-repeat;
+   background-size: cover;
+   background-position: center center;
+ }
+
+
+ /* Height for devices larger than 576px */
+ @media (min-width: 992px) {
+   #introCarousel {
+     margin-top: -58.59px;
+   }
+   #introCarousel,
+   .carousel-inner,
+   .carousel-item,
+   .carousel-item.active {
+     height: 75vh;
+   }
+ }
+
+ /* Color of the links BEFORE scroll */
+.navbar-scroll .nav-link,
+.navbar-scroll .navbar-toggler .fa-bars {
+  color: #fff;
+}
+
+/* Color of the links AFTER scroll */
+.navbar-scrolled .nav-link,
+.navbar-scrolled .navbar-toggler .fa-bars {
+  color: #0c0707;
+}
+
+/* Color of the navbar AFTER scroll */
+.navbar-scrolled {
+  background-color: rgba(250, 245, 245, 0.918);
+}
+
+/* An optional height of the navbar AFTER scroll */
+.navbar.navbar-scroll.navbar-scrolled {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+.navbar-visible {
+  transform: translateY(0%);
+  transition: transform 0.3s ease-in-out;
+}
+
+.navbar-hidden {
+  transform: translateY(-100%);
+  transition: transform 0.3s ease-in-out;
 }
