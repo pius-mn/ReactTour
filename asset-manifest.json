@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/ReactTour/static/css/main.ca12b72f.css",
-    "main.js": "/ReactTour/static/js/main.56787fbc.js",
+    "main.js": "/ReactTour/static/js/main.0d768ec9.js",
     "static/js/496.637d6bb9.chunk.js": "/ReactTour/static/js/496.637d6bb9.chunk.js",
     "index.html": "/ReactTour/index.html",
     "main.ca12b72f.css.map": "/ReactTour/static/css/main.ca12b72f.css.map",
-    "main.56787fbc.js.map": "/ReactTour/static/js/main.56787fbc.js.map",
+    "main.0d768ec9.js.map": "/ReactTour/static/js/main.0d768ec9.js.map",
     "496.637d6bb9.chunk.js.map": "/ReactTour/static/js/496.637d6bb9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.ca12b72f.css",
-    "static/js/main.56787fbc.js"
+    "static/js/main.0d768ec9.js"
   ]
 }
