@@ -3,7 +3,7 @@
 
 import Footer from './components/footer';
 import NavBar from './components/navbar';
-import { BrowserRouter as Router, Route,  Routes } from 'react-router-dom';
+import { HashRouter as Router, Route,  Routes } from 'react-router-dom';
 
 
 import Items from './pages/PageList';
